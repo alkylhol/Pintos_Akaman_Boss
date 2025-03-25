@@ -34,16 +34,3 @@ Each component builds on the existing Pintos infrastructure to introduce critica
 - Introduced **file locking mechanisms** for concurrent access control.  
 - Improved performance through **buffer caching**.  
 
----
-
-## Setup and Compilation
-
-### Prerequisites  
-Ensure you have the following installed:  
-- **GNU Toolchain (GCC, GDB, Make)**
-- **Bochs or QEMU** for running the OS  
-
-### Building Pintos  
-To compile the project, navigate to the respective subdirectory and run:  
-```sh
-make
